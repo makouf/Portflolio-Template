@@ -4,6 +4,8 @@ padding:0;
 }
 .wrapper{
   box-sizing: content-box;
+  width:99%;
+  margin:auto;
 
 }
 .container{
@@ -12,7 +14,7 @@ padding:0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin:0px 18px 0px 18px;
+  margin:0;
 
 }
 
