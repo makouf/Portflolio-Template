@@ -1,0 +1,265 @@
+body{
+margin:0;
+padding:0;
+}
+.wrapper{
+  box-sizing: content-box;
+
+}
+.container{
+  min-height: 100vh;
+  background-image: url(imgs/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin:0px 18px 0px 18px;
+
+}
+
+nav{
+  min-height: 50px;
+  background-color: #393e46;
+  opacity:0.85;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  color:white;
+  margin:0px -18px 0px -18px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width:35%;
+}
+ul a {
+  color:white;
+  text-decoration: none;
+}
+ul a:hover{
+  color:cornflowerblue;
+}
+ul li {
+  list-style: none;
+}
+.contain{
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  margin-top:8%;
+  margin-left: 20%;
+
+}
+.contain p {
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+.contain h3{
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform:uppercase;
+  margin:0;
+  font-family: 'Rubik', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif;
+
+}
+.contain button{
+  width:100px;
+  height: 30px;
+  background-color: black;
+  color:white;
+  border: 1px solid black;
+  border-radius: 20px;
+   cursor: pointer;
+}
+/* end of the first div */
+.works{
+  min-height: 60vh;
+
+}
+
+.section-1{
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 1px;
+  padding:5%;
+  margin-left: 25%;
+  font-size: 20px;
+
+}
+.section-1 h3{
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Anton', sans-serif;
+}
+.section-1 p{
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Abel', sans-serif;
+}
+hr{
+  width:50px;
+  height: 0px;
+  border: 3px solid black;
+  margin-left: 0px;
+}
+
+.imgs{
+  width:80%;
+
+  margin:auto;
+
+
+}
+.imgs img {
+width:30%;
+height:30%;
+
+
+}
+/* end of section 2 */
+.about-me{
+  background-color:#222831;
+  color:white;
+  padding:7%;
+
+}
+.about-me hr,.to-do hr  {
+  width:50px;
+  height: 0px;
+  border: 3px solid white;
+  margin-left: 0px;
+  margin-left: 60px;
+}
+
+.div-1 h3,.my-skills h3 ,.to-do h3{
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-left: 60px;
+}
+.div-1 p ,.my-skills p,.to-do p{
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Abel', sans-serif;
+
+  margin-left: 60px;
+
+}
+.div2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  font-family: 'Teko', sans-serif;
+  margin-left: 60px;
+
+}
+.div2-p2{
+  padding-left: 5%;
+}
+/* end of about me section  */
+
+.my-skills{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 1px;
+  padding:5%;
+  margin-left: 20%;
+  font-size: 20px;
+}
+.my-skills hr{
+  width:50px;
+  height: 0px;
+  border: 3px solid black;
+  margin-left:7%;
+}
+/* css progress code from codepen */
+/* section to do  */
+.do{
+  background-color:#222831;
+  color:white;
+  padding:7%;
+}
+
+.icons{
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+  font-family: 'Abel', sans-serif;
+  padding: 10%;
+  height:50px;
+
+}
+.icons-fa{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3%;
+  font-size: 20px;
+
+}
+/* end of section */
+footer{
+  background-color: #393e46;
+  color: white;
+}
+.last {
+  width:30%;
+  height:250px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 7%;
+
+
+}
+.last button{
+  width:100px;
+  padding:10px;
+  background-color: white;
+  color:black;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 6%;
+
+}
+.last h3 {
+  font-family: 'Abel', sans-serif;
+  font-size: 35px;
+}
+.social-icons{
+display: flex;
+justify-content:space-around;
+align-items: center;
+margin-top: 15%;
+cursor: pointer;
+}
+.last hr {
+  width:300px;
+  height: 0px;
+  border: 1px solid white;
+  margin:auto;
+  margin-top: 20%;
+  margin-bottom:5%;
+  color:white;
+}
+.last span {
+  font-size: 10px;
+}
